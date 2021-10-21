@@ -1,0 +1,18 @@
+﻿<Window x:Class="AppSewing.Kladov"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppSewing"
+        mc:Ignorable="d"
+        Title="Kladov" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Label Content="Кладовщик" HorizontalAlignment="Left" Margin="275,10,0,0" VerticalAlignment="Top" Width="258"/>
+            <Button x:Name="SpisokButton" Content="Список тканей" HorizontalAlignment="Left" Margin="10,339,0,0" VerticalAlignment="Top" Width="98" Click="SpisokButton_Click"/>
+            <Button x:Name="PostupButton" Content="Поступления" HorizontalAlignment="Left" Margin="10,375,0,0" VerticalAlignment="Top" Width="98" Click="PostupButton_Click"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
